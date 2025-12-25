@@ -1,2 +1,9 @@
-# Ara-Plaka-Tan-ma
-Bu MATLAB projesi, dijital görüntü işleme tekniklerini kullanarak otomatik bir Araç Plaka Tanıma (APT) sistemi sunar. Proje; gri tonlama, gürültü filtreleme, kenar algılama ve morfolojik işlemler ile plaka konumunu belirler ve karakterleri (OCR/Şablon eşleştirme) yüksek doğrulukla analiz ederek metne dönüştürür.
+## Araç Plaka Tanıma Sistemi (MATLAB)
+
+Bu proje, görüntü işleme teknikleri kullanılarak geliştirilmiş otomatik bir *Araç Plaka Tanıma (ALPR)* sistemidir. MATLAB ortamında geliştirilen bu algoritma, karmaşık arka planlara sahip görsellerden plakayı tespit edip karakterleri metne dönüştürebilmektedir.
+
+##  Projenin Özellikleri
+- *Görüntü Ön İşleme:* Gürültü giderme ve kontrast iyileştirme.
+- *Plaka Yer tespiti:* Morfolojik işlemler ve kenar algılama (Edge Detection) ile plaka bölgesinin bulunması.
+- *Karakter Bölütleme:* Karakterlerin tek tek ayrıştırılması.
+- *Optik Karakter Tanıma (OCR):* Şablon eşleştirme veya MATLAB OCR toolbox ile karakterlerin okunması.
